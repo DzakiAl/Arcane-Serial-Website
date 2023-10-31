@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    animation: fade-in 1s ease-in-out;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 6vw;
+    background-color: transparent;
+}
+
+.logo {
+    margin: 2vh 0 2vh 1vw;
+    width: 20vw;
+    height: 4vw;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5%;
+    font-family: 'Be Vietnam Pro';
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    position: relative;
+    padding: 1vh 1.5vw 1vh 1.5vw;
+    transition: 0.3s all ease-in-out;
+}
+
+.menu a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 0.5vw;
+    transition: 0.3s all ease-in-out;
+}
+
+.presents {
+    font-size: 1vw;
+}
+
+.image {
+    width: 35vw;
+    height: 11vw;
+    margin: 2vh 0 5vh 0;
+}
+
+.button {
+    display: block;
+    background-color: white;
+    width: 17vw;
+    height: 4vw;
+    text-decoration: none;
+    text-align: center;
+    line-height: 4vw;
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 0vw;
+    transition: 0.5s ease;
+    color: black;
+}
+
+.button:hover {
+    display: block;
+    background-color: #f8b996;
+    transition: all ease-in-out 0.5s;  
+}
+
+.content {
+    margin: 17vh 0 0 0;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 15vw;
+}
+
+.link {
+    text-align: center;
+    height: 100%;
+    font-size: 1.2vw;
+    box-sizing: border-box;
+    padding: 7.5vh 0 0 0;
+}
+
+.link2 {
+    color: white; 
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 1.2vw;
+    color: white;
+}
+
+.end-section {
+    display: flex;
+    justify-content: center;
+    margin: 6vh 0 6vh 0;
+}
+
+.netflix p {
+    font-size: 1.3vw;
+    font-family: 'Be Vietnam Pro';
+}
+
+.netflix-logo {
+    width: 13.5vw;
+    height: 3.5vw;
+}

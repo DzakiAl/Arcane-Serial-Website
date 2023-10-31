@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcane: League of Legends</title>
+    <link rel="stylesheet" href="css/story.css">
+    <link rel="icon" type="image/x-icon" href="asset/favicon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html"><img src="asset/Arcane-Logo.png" alt="" class="logo"></a>
+        <div class="menu">
+            <a href="media.html">Media</a>
+            <a href="story.html">Story</a>
+        </div>
+    </nav>
+    <div class="container">
+        <img src="asset/Piltover.jpg" alt="" class="background">
+        <h1>A House Divided</h1>
+    </div>
+    <div class="content2">
+        <p class="text">
+            Two sisters. Two cities. One discovery that will change the world forever. <br><br>
+
+            In the cities of Piltover and Zaun, unrest stirs as inventors and thieves, politicians and crime lords chafe
+            against the constraints of a society torn asunder. As dissent reaches a fever pitch, two sisters steal an
+            artifact of untold power. Discovery and danger intertwine as heroes are born and bonds are broken. Will this
+            power change the world, or lead it to ruin? This is the world of Arcane.
+        </p>
+    </div>
+    <div class="container2">
+        <img src="asset/Piltover City.jpg" alt="" class="background2">
+        <h1 style="text-align: center;" class="title-piltover">Piltover <br>The City of Progress</h1>
+    </div>
+    <div class="content2">
+        <p class="text2">
+            Nestled at the heart of the continent, Piltover stands on the precipice of progress. The invention of
+            hextech shines with subtle promise of a glorious future, and two brilliant scientists lead the charge. Such
+            potential is not without cost, and failure could prove devastating as politicians vie for a power they
+            barely understand. As unrest stirs in the Undercity and upheaval looms, the people of Piltover must protect
+            their future… no matter the cost.
+        </p>
+    </div>
+    <div class="container2">
+        <img src="asset/Zaun.jpg" alt="" class="background2">
+        <h1 style="text-align: center;" class="title-zaun">Zaun <br> The Undercity</h1>
+    </div>
+    <div class="content2">
+        <p class="text2">
+            In the shadows of progress, far below the ivory towers of Piltover, the Undercity waits. The air there is
+            thick with shouts and smoke, and each alleyway promises danger, desire...or both. But at its heart, this
+            sister city thrums with hope, ingenuity, and an unbreakable spirit that neither greedy chembarons nor
+            aggressive enforcers could ever take away. As the age of hextech looms, her citizens no longer see
+            themselves as Topsiders. Instead, they look up with desperate determination and dream of something more.
+        </p>
+    </div>
+    <footer>
+        <div class="link">
+            <p class="copyright">&copy; 2021 Riot Games, Inc. ARCANE LEAGUE OF LEGENDS and any associated logos are trademark
+                , service<br> marks, and/or registered trademarks of Riot Games, Inc.
+            </p>
+            <a class="link2" href="">Privacy Notice</a>
+            <a class="link2" href="" style="margin-left: 3vw; margin-right: 3vw;">Terms of service</a>
+            <a class="link2" href="">Cookie Policy</a>
+            <a class="link2" href="" style="margin-left: 3vw;">Cookie Preferences</a>
+        </div>
+    </footer>
+    <script>
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            const content = document.querySelector('.container');
+            const scrollPos = window.scrollY;
+
+            if (scrollPos > content.offsetTop - navbar.clientHeight) {
+                navbar.style.backgroundColor = '#000000'; // Change to your desired color
+            } else {
+                navbar.style.backgroundColor = 'transparent';
+            }
+        });
+    </script>
+</body>
+</html>

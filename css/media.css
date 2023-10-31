@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    animation: fade-in 1s ease-in-out;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+@font-face {
+    font-family: 'ArcaneNine';
+    src: url('../font/Arcane\ Nine.otf');
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 6vw;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+.logo {
+    margin: 2vh 0 2vh 1vw;
+    width: 20vw;
+    height: 4vw;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5%;
+    font-family: 'Be Vietnam Pro';
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    position: relative;
+    padding: 1vh 1.5vw 1vh 1.5vw;
+    transition: 0.3s all ease-in-out;
+}
+
+.menu a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 0.5vw;
+    transition: 0.3s all ease-in-out;
+}
+
+.container {
+    margin: 50vh 0 15vh 5vw;
+}
+
+.subtitle {
+    font-size: 7vw;
+    margin: 0;
+    font-family: ArcaneNine;
+}
+
+.title {
+    font-size: 2.5vw;
+    margin: 0;
+    font-family: ArcaneNine;
+}
+
+.content2 {
+    background-color: white;
+    width: 100%;
+    height: 520vh;
+}
+
+.explore-arcane {
+    text-align: center;
+    color: #190931;
+    font-size: 4vw;
+    padding: 10vh 0 0 0;
+    font-family: ArcaneNine;
+}
+
+.video-container {
+    width: 60.3vw;
+    height: 40.2vw;
+    background-color: #481B6B;
+}
+
+.video {
+    width: 60vw;
+    height: 60vh;
+    border: 0.2vw solid #481B6B;
+}
+
+.padding {
+    padding: 10vh 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.type {
+    margin: 3.5vh 0 1vh 2vw;
+    font-size: 1vw;
+    font-family: ArcaneNine;
+}
+
+.the-title {
+    font-size: 2vw;
+    margin: 0 0 1vh 2vw;
+    font-family: ArcaneNine;
+}
+
+.desc {
+    margin: 0 0 0 2vw;
+    font-size: 1.3vw;
+    font-family: ArcaneNine;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 15vw;
+}
+
+.link {
+    text-align: center;
+    height: 100%;
+    font-size: 1.2vw;
+    box-sizing: border-box;
+    padding: 7.5vh 0 0 0;
+}
+
+.link2 {
+    color: white; 
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 1.2vw;
+    color: white;
+}

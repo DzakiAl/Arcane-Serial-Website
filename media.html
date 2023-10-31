@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcane: League of Legends</title>
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" type="image/x-icon" href="asset/favicon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+      </style>
+</head>
+<body>
+    <script>
+         window.addEventListener('scroll', () => {
+        const navbar = document.querySelector('.navbar');
+        const content = document.querySelector('.content');
+        const scrollPos = window.scrollY;
+
+        if (scrollPos > content.offsetTop - navbar.clientHeight) {
+            navbar.style.backgroundColor = '#000000'; // Change to your desired color
+        } else {
+            navbar.style.backgroundColor = 'transparent';
+        }
+        });
+    </script>
+    <img src="asset/Piltover City 2.jpg" alt="" class="background">
+    <nav class="navbar">
+        <a href="index.html"><img src="asset/Arcane-Logo.png" alt="" class="logo"></a>
+        <div class="menu">
+            <a href="media.html">Media</a>
+            <a href="story.html">Story</a>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="container">
+            <p class="title">Exclusive Content</p>
+            <h1 class="subtitle">Watch, Look,<br>Listen</h1>
+        </div>
+    </div>
+    <div class="content2">
+        <p class="explore-arcane">Explore Arcane</p>
+        <div class="padding">
+            <div class="video-container">
+                <iframe class="video" src="https://www.youtube.com/embed/cMzi3-2Nct0?si=Dv78FFyklevw7Lh5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p class="type">VIDEO</p>
+                <h5 class="the-title">/dev diary: The Music of Arcane</h5>
+                <p class="desc">We sit down with Christian Linke and Toa Dunn to dive into the music of Arcane</p>
+            </div>
+        </div>
+        <div class="padding">
+            <div class="video-container">
+                <iframe class="video" src="https://www.youtube.com/embed/Nu9HTOIUxLk?si=Jjck0CSaICNLH_U6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p class="type">VIDEO</p>
+                <h5 class="the-title">Arcane: Season 2 Announment</h5>
+                <p class="desc">Ready yourself, friends. Season 2 of Arcane is now in production</p>
+            </div>
+        </div>
+        <div class="padding">
+            <div class="video-container">
+                <iframe class="video" src="https://www.youtube.com/embed/mqMYpAuxqbk?si=LEW74QqFaR_ZXIol" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p class="type">VIDEO</p>
+                <h5 class="the-title">Arcane Act III Sneak Peak</h5>
+                <p class="desc">Make your return to runeterra this saturday, November 20th on Netflix</p>
+            </div>
+        </div>
+        <div class="padding">
+            <div class="video-container">
+                <iframe class="video" src="https://www.youtube.com/embed/0JSwG2sqUm8?si=XSXGh9wHJsxHnOmy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p class="type">VIDEO</p>
+                <h5 class="the-title">Arcane Act II Sneak Peak</h5>
+                <p class="desc">Make your return to runeterra this saturday, November 13th on Netflix</p>
+            </div>
+        </div>
+        <div class="padding">
+            <div class="video-container">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3MdiH74FL8mhlbnR6DcqJd?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p class="type">Music</p>
+                <h5 class="the-title">Listen to Arcane Original Soundtrack</h5>
+                <p class="desc">Have a taste of Arcane Original Soundtrack on Spotify</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="link">
+            <p class="copyright">&copy; 2021 Riot Games, Inc. ARCANE LEAGUE OF LEGENDS and any associated logos are trademark
+                , service<br> marks, and/or registered trademarks of Riot Games, Inc.
+            </p>
+            <a class="link2" href="">Privacy Notice</a>
+            <a class="link2" href="" style="margin-left: 3vw; margin-right: 3vw;">Terms of service</a>
+            <a class="link2" href="">Cookie Policy</a>
+            <a class="link2" href="" style="margin-left: 3vw;">Cookie Preferences</a>
+        </div>
+    </footer>
+</body>
+</html>

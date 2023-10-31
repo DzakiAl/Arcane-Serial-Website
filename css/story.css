@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    animation: fade-in 1s ease-in-out;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+@font-face {
+    font-family: 'ArcaneNine';
+    src: url('../font/Arcane\ Nine.otf');
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 6vw;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+.logo {
+    margin: 2vh 0 2vh 1vw;
+    width: 20vw;
+    height: 4vw;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5%;
+    font-family: 'Be Vietnam Pro';
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    position: relative;
+    padding: 1vh 1.5vw 1vh 1.5vw;
+    transition: 0.3s all ease-in-out;
+}
+
+.menu a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 0.5vw;
+    transition: 0.3s all ease-in-out;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 30vh 0 30vh 0;
+    font-size: 4vw;
+}
+
+.container h1 {
+    font-family: ArcaneNine;
+}
+
+.container2 h1 {
+    font-family: ArcaneNine;
+}
+
+.content2 {
+    background: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+.text {
+    color: white;
+    font-family: ArcaneNine;
+    padding: 20vh 20vw 0 20vw;
+    font-size: 2.2vw;
+}
+
+.text2 {
+    color: white;
+    font-family: ArcaneNine;
+    padding: 20vh 20vw 0 10vw;
+    font-size: 2.2vw;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 15vw;
+}
+
+.link {
+    text-align: center;
+    height: 100%;
+    font-size: 1.2vw;
+    box-sizing: border-box;
+    padding: 7.5vh 0 0 0;
+}
+
+.link2 {
+    color: white; 
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 1.2vw;
+    color: white;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30vh 0;
+    font-size: 4vw;
+}
+
+.background2 {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    z-index: -10;
+}
+
+.title-piltover {
+    padding: 20vh 0 0 0;
+}
+
+.title-zaun {
+    padding: 20vh 0 0 0;
+}
